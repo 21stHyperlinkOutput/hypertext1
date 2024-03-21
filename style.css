@@ -5,8 +5,8 @@ body {
 }
 
 img {
-    width: 100vw; /* Set image width to 100% of viewport width */
-    height: 100vh; /* Set image height to 100% of viewport height */
+    width: 100%; /* Set image width to 100% of viewport width */
+    height: 100%; /* Set image height to 100% of viewport height */
     object-fit: cover; /* Ensure the image covers the entire viewport */
     position: fixed; /* Fix the image position */
     top: 0;
@@ -16,14 +16,26 @@ img {
 
 h1 {
     color: white;
-    margin-top: 20vh; /* Adjust top margin to position the heading */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+    margin: 0;
+    padding: 0;
+    width: 80%;
 }
 
 ul {
     color: white;
     list-style-type: none;
     padding: 0;
-    margin-top: 5vh; /* Adjust top margin to space out the list */
+    margin: 0;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
 }
 
 li {
