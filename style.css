@@ -1,41 +1,30 @@
 body {
     margin: 0;
     padding: 0;
-    text-align: center;
+    font-family: Arial, sans-serif;
+    color: white; /* Set text color to white */
 }
 
 img {
-    width: 100%; /* Set image width to 100% of viewport width */
-    height: 100%; /* Set image height to 100% of viewport height */
+    width: 100vw; /* Set image width to 100% of viewport width */
+    height: 100vh; /* Set image height to 100% of viewport height */
     object-fit: cover; /* Ensure the image covers the entire viewport */
-    position: fixed; /* Fix the image position */
+    position: absolute; /* Position the image absolutely */
     top: 0;
     left: 0;
     z-index: -1; /* Place the image behind other content */
 }
 
 h1 {
-    color: white;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 24px;
-    margin: 0;
-    padding: 0;
-    width: 80%;
+    text-align: center;
+    margin-top: 20vh; /* Adjust top margin to position the heading */
 }
 
 ul {
-    color: white;
+    text-align: center;
     list-style-type: none;
     padding: 0;
-    margin: 0;
-    position: absolute;
-    top: 60%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 80%;
+    margin-top: 5vh; /* Adjust top margin to space out the list */
 }
 
 li {
