@@ -19,8 +19,8 @@ h1 {
     text-align: center;
     margin-top: 20vh; /* Adjust top margin to position the heading */
     text-shadow: 
-        -3px -3px 0 #000, 3px -3px 0 #000,
-        -3px 3px 0 #000, 3px 3px 0 #000; /* Add 100% black outline */
+        -5px -5px 0 #000, 5px -5px 0 #000,
+        -5px 5px 0 #000, 5px 5px 0 #000; /* Add thicker black outline */
 }
 
 ul {
@@ -33,6 +33,6 @@ ul {
 li {
     margin-bottom: 1em; /* Adjust bottom margin to space out list items */
     text-shadow: 
-        -3px -3px 0 #000, 3px -3px 0 #000,
-        -3px 3px 0 #000, 3px 3px 0 #000; /* Add 100% black outline */
+        -5px -5px 0 #000, 5px -5px 0 #000,
+        -5px 5px 0 #000, 5px 5px 0 #000; /* Add thicker black outline */
 }
