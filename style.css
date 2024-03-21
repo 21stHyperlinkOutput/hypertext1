@@ -18,6 +18,7 @@ img {
 h1 {
     text-align: center;
     margin-top: 20vh; /* Adjust top margin to position the heading */
+    text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000; /* Add black outline */
 }
 
 ul {
@@ -29,4 +30,5 @@ ul {
 
 li {
     margin-bottom: 1em; /* Adjust bottom margin to space out list items */
+    text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000; /* Add black outline */
 }
