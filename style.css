@@ -14,21 +14,9 @@ body {
     position: relative;
 }
 
-h1 {
-    color: white;
-    z-index: 1; /* Ensure the title is above the overlay */
-}
-
-ul {
-    list-style-type: none;
-    padding: 0;
-    margin-top: 20px;
-}
-
-ul li {
-    color: white;
-    font-size: 18px;
-    margin-bottom: 10px;
+h1, ul li {
+    color: white; /* Set text color to white */
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5); /* Add text shadow for better readability */
 }
 
 .background-image {
@@ -47,7 +35,7 @@ ul li {
     position: absolute;
     top: 0;
     left: 0;
-    background-color: rgba(0, 0, 0, 0.5); /* Adjust the opacity here */
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent overlay */
     z-index: 0;
 }
 
