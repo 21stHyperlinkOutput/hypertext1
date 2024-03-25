@@ -16,7 +16,7 @@ body {
 
 h1, ul li {
     color: white; /* Set text color to white */
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Increase text shadow for better readability */
+    text-shadow: 6px 6px 12px rgba(0, 0, 0, 0.9); /* Double text shadow for better readability */
 }
 
 .background-image {
@@ -35,7 +35,7 @@ h1, ul li {
     position: absolute;
     top: 0;
     left: 0;
-    background-color: rgba(0, 0, 0, 0.7); /* Increase transparency */
+    background-color: rgba(0, 0, 0, 0.2); /* Increase transparency */
     z-index: 0;
 }
 
