@@ -2,39 +2,33 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-    color: white; /* Set text color to white */
 }
 
 img {
-    width: 100vw; /* Set image width to 100% of viewport width */
-    height: 100vh; /* Set image height to 100% of viewport height */
-    object-fit: cover; /* Ensure the image covers the entire viewport */
-    position: absolute; /* Position the image absolutely */
+    width: 100%;
+    height: auto;
+    position: fixed;
     top: 0;
     left: 0;
-    z-index: -1; /* Place the image behind other content */
+    z-index: -1;
 }
 
 h1 {
+    color: white;
     text-align: center;
-    margin-top: 20vh; /* Adjust top margin to position the heading */
-    -webkit-text-stroke: 0.5px rgba(0, 0, 0, 0.5); /* Add translucent black stroke with 0.5px thickness */
-    text-shadow: 
-        -3px -3px 0 rgba(0, 0, 0, 0.3), 3px -3px 0 rgba(0, 0, 0, 0.3),
-        -3px 3px 0 rgba(0, 0, 0, 0.3), 3px 3px 0 rgba(0, 0, 0, 0.3); /* Add translucent black shadow */
+    margin-top: 20vh; /* Adjust as needed */
 }
 
 ul {
-    text-align: center;
     list-style-type: none;
     padding: 0;
-    margin-top: 5vh; /* Adjust top margin to space out the list */
+    margin-top: 5vh; /* Adjust as needed */
+    text-align: center;
 }
 
-li {
-    margin-bottom: 1em; /* Adjust bottom margin to space out list items */
-    -webkit-text-stroke: 0.5px rgba(0, 0, 0, 0.5); /* Add translucent black stroke with 0.5px thickness */
-    text-shadow: 
-        -3px -3px 0 rgba(0, 0, 0, 0.3), 3px -3px 0 rgba(0, 0, 0, 0.3),
-        -3px 3px 0 rgba(0, 0, 0, 0.3), 3px 3px 0 rgba(0, 0, 0, 0.3); /* Add translucent black shadow */
+ul li {
+    color: white;
+    font-size: 18px;
+    margin-bottom: 10px;
 }
+
